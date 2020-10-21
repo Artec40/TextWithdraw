@@ -1,0 +1,17 @@
+.App {
+    text-align: center;
+    font-size: 40px;
+}
+
+.symbol-fade-in-animation {
+    animation: opac 3s
+}
+
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
